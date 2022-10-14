@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+nav ul#egysor li{
+    display: inline;
+}
+nav ul{
+    word-spacing: 30px;
+}
+
+main{
+    margin: auto;
+    width: 80%;
+    max-width: 700px;
+   
+}
+
+header{
+    text-align: center;
+    margin: auto;
+    display: grid;
+  
+}
+img{
+    height: 100px;
+    
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+section ul{
+    list-style-type: "➧";
+
+}
+
+section img{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.vonal{
+    border-right: 3px solid red;
+}
+
+section h2{
+    text-align: center;
+}
