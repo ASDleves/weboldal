@@ -31,11 +31,6 @@ article{
     grid-template-columns: 1fr 1fr 1fr;
     
 }
-section ul{
-    list-style-type: "➧";
-
-}
-
 section img{
     display: block;
     margin: auto;
@@ -44,7 +39,14 @@ section img{
 .vonal{
     border-right: 3px solid red;
 }
-
+section ul li::before {
+    content: "➧";
+    color: orange;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
 section h2{
     text-align: center;
 }

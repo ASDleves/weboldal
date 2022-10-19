@@ -1,0 +1,40 @@
+body{
+    color: white;
+    margin: 0;
+    background: black;
+    margin: auto;
+}
+nav ul#egysor li{
+    display: inline;
+    
+    
+}
+nav ul{
+    padding-top: 20px;
+    word-spacing: 30px;
+    margin: 0;
+}
+nav{
+    background-color: rgb(40, 40, 40);
+    height: 60px;
+}
+main{
+    padding-top: 70px;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    max-width: 1600px;
+    margin: auto;
+}
+aside{
+    padding-left: 100px;
+    padding-top: 60px;
+}
+article h1{
+    font-size: 50pt;
+    border-bottom: 3px solid red;
+}
+article p{
+    font-size: 15pt;
+}

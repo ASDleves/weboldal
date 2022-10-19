@@ -1,0 +1,40 @@
+body{
+    color: white;
+    margin: 0;
+    background: black;
+    margin: auto;
+}
+nav ul#egysor li{
+    display: inline;
+    
+    
+}
+nav ul{
+    padding-top: 20px;
+    word-spacing: 30px;
+    margin: 0;
+}
+nav{
+    background-color: rgb(40, 40, 40);
+    height: 60px;
+}
+main{
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+
+}
+main h1{
+    text-align: center;
+    font-size: 40pt;
+    text-decoration: underline red;
+}
+main p{
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 40px;
+}
