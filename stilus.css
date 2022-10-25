@@ -1,37 +1,50 @@
+*{
+    margin: 0;
+    font-family: 'Varela Round';
+}
 body{
-    background-color: rgb(40, 40, 40);
+    background: black;
     color: white;
 }
 nav ul#egysor li{
     display: inline;
 }
 nav ul{
+
     word-spacing: 30px;
 }
-
+nav{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
 main{
+    width: 100%;
+    max-width: 2000px;
+    background-color: rgb(40, 40, 40);
+}
+.main1{
     margin: auto;
     width: 80%;
     max-width: 700px;
-   
+    background-color: rgb(40, 40, 40);
 }
 
-header{
+.main1 header{
     text-align: center;
     margin: auto;
     display: grid;
-  
+  padding-bottom: 30px;
 }
-img{
+.main1 img{
     height: 100px;
     
 }
-article{
+.main1 article{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     
 }
-section img{
+.main1 section img{
     display: block;
     margin: auto;
     text-align: center;
@@ -39,7 +52,7 @@ section img{
 .vonal{
     border-right: 3px solid red;
 }
-section ul li::before {
+.main1 section ul li::before {
     content: "➧";
     color: orange;
     font-weight: bold;
@@ -47,6 +60,89 @@ section ul li::before {
     width: 1em;
     margin-left: -1em;
   }
-section h2{
+.main1 section h2{
     text-align: center;
+}
+.body2{
+        color: white;
+        margin: 0;
+        background: black;
+        margin: auto;
+
+}
+
+.main2 {
+    padding-top: 70px;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    max-width: 1600px;
+    margin: auto;
+    color: white;
+    margin: auto
+}
+.main2 aside{
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.main2 article h1{
+    font-size: 50pt;
+    border-bottom: 3px solid red;
+    
+}
+.main2 article p{
+    padding-top: 30px;
+    font-size: 15pt;
+}
+.body3{
+    color: white;
+    margin: 0;
+    background: black;
+    margin: auto;
+    height: 700px;
+}
+.main3{
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+
+}
+.main3 h1{
+    text-align: center;
+    font-size: 40pt;
+    text-decoration: underline red;
+    padding-bottom: 20px;
+}
+.main3 p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.main3 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 40px;
+}
+.main3 article{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+}
+#dobot{
+    margin: auto;
+}
+.main3 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.main3 aside {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(0, 84, 154);
+    width: 250px;
+    height: 50px;
+    padding-top: 10px;
 }
